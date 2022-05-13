@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ro" lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpage</title>
+</head>
+
+<style>
+    body {
+        margin: 0;
+        background-color: rgb(82, 142, 253);
+    }
+
+    .navbar {
+        margin-top: 10rem;
+        border: none;
+        width: 7rem;
+        background-color: transparent;
+        border-left: none;
+    }
+
+    .navbar a {
+        font-size: 19px;
+        color: black;
+        padding: 15px 10px;
+        text-decoration: none;
+        display: block;
+        border: solid;
+        border-left: none;
+        background-color: rgb(111, 168, 253);
+        text-align: center;
+    }
+
+    .subnav {
+        overflow: hidden;
+    }
+
+    .subnav .subnavbtn {
+        font-size: 19px;
+        border: none;
+        outline: none;
+        color: black;
+        padding: 15px 10px;
+        background-color: inherit;
+        font-family: inherit;
+        border: solid;
+        background-color: rgb(111, 168, 253);
+        border-left: none;
+    }
+
+    .navbar a:hover,
+    .subnav:hover .subnavbtn {
+        background-color: rgb(248, 248, 248);
+        cursor: pointer;
+    }
+
+    .subnav-content {
+        display: none;
+        left: 0;
+        background-color: rgb(82, 142, 253);
+        width: 91%;
+        margin-left: 10px;
+    }
+
+    .subnav-content a {
+        color: black;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    .subnav-content a:hover {
+        background-color: rgb(255, 255, 255);
+        color: black;
+    }
+
+    .subnav:hover .subnav-content {
+        display: block;
+    }
+
+    .subnavbtn {
+        text-align: center;
+        width: 100%;
+    }
+
+    .navigation {
+        width: 7rem;
+        height: auto;
+        position: absolute;
+        top: 10rem;
+    }
+</style>
+
+<body>
+
+    <section class="navigation">
+
+        <div class="navbar">
+            <a href="index.html" style="border-top-right-radius: 1rem;">Acasa</a>
+            <a href="YoungFest.html">Young Fest</a>
+            <a href="Statistici.html">Statistici</a>
+            <div class="subnav">
+
+                <button class="subnavbtn" style="border-bottom-right-radius: 1rem;">Aderari</button>
+                <div class="subnav-content">
+                    <a href="Sarbatoare.html" style="border: solid; border-top-right-radius: 1rem;">Sarbatoare</a>
+                    <a href="Tari.html"
+                        style="border: solid; border-bottom-right-radius: 1rem; border-bottom-left-radius: 1rem">Tari</a>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <head>
+
+    </head>
+
+</body>
+
+</html>
